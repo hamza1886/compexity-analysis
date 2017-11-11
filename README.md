@@ -34,31 +34,32 @@ static class Operation {
 The output is self explanatory.
 
 #### When dataset is random:
-
-* Bubble Sort 	size: 500		comparisons: 124315			swaps: 62905
-* Bubble Sort 	size: 5000		comparisons: 12484620		swaps: 6381182
-* Bubble Sort 	size: 15000		comparisons: 112473585		swaps: 56374559
-
-* Selection Sort 	size: 500		comparisons: 124750			swaps: 496
-* Selection Sort 	size: 5000		comparisons: 12497500		swaps: 4989
-* Selection Sort 	size: 15000		comparisons: 112492500		swaps: 14973
-
+<pre>
+Bubble Sort 	size: 500		comparisons: 124315			swaps: 62905
+Bubble Sort 	size: 5000		comparisons: 12484620		swaps: 6381182
+Bubble Sort 	size: 15000		comparisons: 112473585		swaps: 56374559
+<br>
+Selection Sort 	size: 500		comparisons: 124750			swaps: 496
+Selection Sort 	size: 5000		comparisons: 12497500		swaps: 4989
+Selection Sort 	size: 15000		comparisons: 112492500		swaps: 14973
+</pre>
 #### When dataset is presorted:
-
-* Bubble Sort 	size: 500		comparisons: 499			swaps: 0
-* Bubble Sort 	size: 5000		comparisons: 4999			swaps: 0
-* Bubble Sort 	size: 15000		comparisons: 14999			swaps: 0
-
-* Selection Sort 	size: 500		comparisons: 124750			swaps: 0
-* Selection Sort 	size: 5000		comparisons: 12497500		swaps: 0
-* Selection Sort 	size: 15000		comparisons: 112492500		swaps: 0
-
+<pre>
+Bubble Sort 	size: 500		comparisons: 499			swaps: 0
+Bubble Sort 	size: 5000		comparisons: 4999			swaps: 0
+Bubble Sort 	size: 15000		comparisons: 14999			swaps: 0
+<br>
+Selection Sort 	size: 500		comparisons: 124750			swaps: 0
+Selection Sort 	size: 5000		comparisons: 12497500		swaps: 0
+Selection Sort 	size: 15000		comparisons: 112492500		swaps: 0
+</pre>
 #### When dataset is reverse sorted:
-
-* Bubble Sort 	size: 500		comparisons: 124750			swaps: 124623
-* Bubble Sort 	size: 5000		comparisons: 12497500		swaps: 12485013
-* Bubble Sort 	size: 15000		comparisons: 112492395		swaps: 112380218
-
-* Selection Sort 	size: 500		comparisons: 124750			swaps: 284
-* Selection Sort 	size: 5000		comparisons: 12497500		swaps: 3447
-* Selection Sort 	size: 15000		comparisons: 112492500		swaps: 10650
+<pre>
+Bubble Sort 	size: 500		comparisons: 124750			swaps: 124623
+Bubble Sort 	size: 5000		comparisons: 12497500		swaps: 12485013
+Bubble Sort 	size: 15000		comparisons: 112492395		swaps: 112380218
+<br>
+Selection Sort 	size: 500		comparisons: 124750			swaps: 284
+Selection Sort 	size: 5000		comparisons: 12497500		swaps: 3447
+Selection Sort 	size: 15000		comparisons: 112492500		swaps: 10650
+</pre>
