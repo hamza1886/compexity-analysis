@@ -25,7 +25,7 @@ static class Operation {
 
 ## How to Run the Program
 
-* The input dataset is read from files having naming convention `input-file-X-Y.txt` where `X` denotes one of `random`, `sorted` or `reverse`, and `Y` denotes the size of dataset.
+* The input dataset is read from files having naming convention `input-file-X-Y.txt` where `X` denotes one of `random`, `sorted` or `reverse`, and `Y` denotes the size of dataset _500_, _5000_ and _15000_.
 * Current program in `main.java` runs algos on `random` dataset.
 * Change name of file `input-file-X-Y.txt` at `line:39` and `line:49` in `main.java` to run for _random_, _presorted_ and _reverse-sorted_ dataset.
 
