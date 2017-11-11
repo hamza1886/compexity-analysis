@@ -33,7 +33,7 @@ static class Operation {
 
 The output is self explanatory.
 
-### When dataset is random:
+#### When dataset is random:
 
 * Bubble Sort 	size: 500		comparisons: 124315			swaps: 62905
 * Bubble Sort 	size: 5000		comparisons: 12484620		swaps: 6381182
@@ -43,7 +43,7 @@ The output is self explanatory.
 * Selection Sort 	size: 5000		comparisons: 12497500		swaps: 4989
 * Selection Sort 	size: 15000		comparisons: 112492500		swaps: 14973
 
-### When dataset is presorted:
+#### When dataset is presorted:
 
 * Bubble Sort 	size: 500		comparisons: 499			swaps: 0
 * Bubble Sort 	size: 5000		comparisons: 4999			swaps: 0
@@ -53,7 +53,7 @@ The output is self explanatory.
 * Selection Sort 	size: 5000		comparisons: 12497500		swaps: 0
 * Selection Sort 	size: 15000		comparisons: 112492500		swaps: 0
 
-### When dataset is reverse sorted:
+#### When dataset is reverse sorted:
 
 * Bubble Sort 	size: 500		comparisons: 124750			swaps: 124623
 * Bubble Sort 	size: 5000		comparisons: 12497500		swaps: 12485013
